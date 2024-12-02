@@ -65,7 +65,7 @@ package com.telusko.springsecurity.config;
                                 		
                                 		http.csrf(customizer -> customizer.disable())
                                 		.authorizeHttpRequests(request -> request
-                                				.requestMatchers("register" , "login")
+                                				.requestMatchers("register" , "login", "hello", "about")
                                 				.permitAll()
                                 				.requestMatchers("/api/v1/management/**").hasAnyRole(ADMIN.name(), MANAGER.name())
                                                 .requestMatchers(GET, "/api/v1/management/**").hasAnyAuthority(ADMIN_READ.name(), MANAGER_READ.name())
