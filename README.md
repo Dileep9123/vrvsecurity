@@ -68,10 +68,11 @@ To get started with this project, you will need to have the following installed 
 
 To build and run the project, follow these steps:
 
-* Clone the repository: `git clone https://github.com/ali-bouali/spring-boot-3-jwt-security.git`
-* Navigate to the project directory: cd spring-boot-security-jwt
+* Clone the repository: `git clone https://github.com/Dileep9123/vrvsecurity.git`
+* Navigate to the project directory: cd vrvsecurity
 * Add database "jwt_security" to postgres 
+* Configure application.properties and set the details of yours
 * Build the project: mvn clean install
 * Run the project: mvn spring-boot:run 
 
--> The application will be available at http://localhost:8080.
+-> The application will be available at http://localhost:8000.
